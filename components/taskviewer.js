@@ -23,11 +23,16 @@ export default function TaskViewer({ scheduleObject }) {
 					}
 					
 					return (
-						<View
+						<View>
+							<ClassViewer
 							key={index}
-							className='bg-zinc-500 p-4 m-4 rounded-lg'>
-							<ClassViewer daysClasses={dayClasses} />
+							daysClasses={dayClasses}
+						/>
+						<Text>
+							WTF IS GOING ON MY NIGGA
+						</Text>
 						</View>
+						
 					);
 				})}
 			</Text>
